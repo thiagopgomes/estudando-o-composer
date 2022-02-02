@@ -1,0 +1,22 @@
+{
+    "name": "thiagopgomes/buscador",
+    "description": "projeto para estudo do composer fazendo uma busca de cursos em um determinado site",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Thiago Gomes",
+            "email": "thiago.gomes@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "4.2",
+        "symfony/css-selector": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+
+        }
+    }
+}
